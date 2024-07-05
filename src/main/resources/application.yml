@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 02-Spring-Data-JPA
+  datasource:
+    url: jdbc:mysql://localhost:3306/testjpa
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
